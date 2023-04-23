@@ -1,0 +1,187 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+}
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+.second-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.title-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* --------------------MAIN PAGE--------------------- */
+
+/* ----------------------HEADER--------------------- */
+
+.header {
+  background-color: #ffffff;
+}
+.header-navigation {
+}
+.logo {
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.header .logo-first-part {
+  color: #4d5ae5;
+}
+.header .logo-second-part {
+  color: #2e2f42;
+}
+.header-list {
+}
+.header-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.address-list {
+  font-style: normal;
+}
+.address-link {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: currentColor;
+}
+
+/* ----------------------HERO--------------------- */
+
+.section-hero {
+  background-color: #2e2f42;
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #ffffff;
+}
+.hero-button {
+  color: #ffffff;
+  background-color: #4d5ae5;
+}
+
+/* --------------------ADVANTAGES--------------------- */
+
+.section-advantages {
+  background-color: #ffffff;
+}
+.advantages-title {
+}
+.advantages-list {
+}
+.advantages-subtitle {
+}
+.advantages-text {
+}
+
+/* --------------------Examples--------------------- */
+.section-examples {
+}
+.examples-title {
+}
+.examples-list {
+}
+
+/* ----------------------Team--------------------- */
+
+.section-team {
+  background-color: #f4f4fd;
+}
+.team-title {
+}
+.team-list {
+}
+.team-subtitle {
+  text-align: center;
+}
+.team-text {
+  text-align: center;
+}
+
+/* ----------------------Team--------------------- */
+
+.footer {
+  background-color: #2e2f42;
+}
+.footer-text {
+  color: #f4f4fd;
+}
+.footer .logo-first-part {
+  color: #4d5ae5;
+}
+.footer .logo-second-part {
+  color: #f4f4fd;
+}
+
+/* --------------------PORTFOLIO PAGE--------------------- */
+
+.section-application {
+  background-color: #ffffff;
+}
+.application-button-list {
+}
+.application-button {
+  color: #4d5ae5;
+  background-color: #f4f4fd;
+}
+.application-active-button {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+.application-list {
+}
+.application-subtitle {
+}
+.application-text {
+}
