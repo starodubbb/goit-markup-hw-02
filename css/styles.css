@@ -85,7 +85,7 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.header-link:is(:hover, :active) {
+.header-link:is(:hover, :focus) {
   color: #404bbf;
 }
 .address {
@@ -99,7 +99,7 @@ body {
   letter-spacing: 0.02em;
   color: currentColor;
 }
-.address-link:is(:hover, :active) {
+.address-link:is(:hover, :focus) {
   color: #404bbf;
 }
 
@@ -120,7 +120,7 @@ body {
   color: #ffffff;
   background-color: #4d5ae5;
 }
-.hero-button:is(:hover, :active) {
+.hero-button:is(:hover, :focus) {
   background-color: #404bbf;
 }
 
@@ -145,7 +145,7 @@ body {
 .examples-list {
 }
 
-/* ----------------------Team--------------------- */
+/* ----------------------TEAM--------------------- */
 
 .section-team {
   background-color: #f4f4fd;
@@ -164,7 +164,7 @@ body {
   text-align: center;
 }
 
-/* ----------------------Team--------------------- */
+/* ----------------------FOOTER--------------------- */
 
 .footer {
   background-color: #2e2f42;
@@ -187,7 +187,7 @@ body {
   color: #4d5ae5;
   background-color: #f4f4fd;
 }
-.application-button:is(:hover, :active) {
+.application-button:is(:hover, :focus) {
   color: #ffffff;
   background-color: #404bbf;
 }
