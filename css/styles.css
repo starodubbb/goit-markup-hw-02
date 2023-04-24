@@ -193,6 +193,9 @@ body {
 }
 .application-list {
 }
+.application-link {
+  color: currentColor;
+}
 .application-subtitle {
 }
 .application-text {
