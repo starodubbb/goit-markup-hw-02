@@ -1,5 +1,9 @@
+:root {
+}
+
 body {
   font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
   color: #434455;
 }
 .link {
@@ -43,6 +47,7 @@ body {
   letter-spacing: 0.02em;
 }
 .button {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -50,26 +55,23 @@ body {
   text-align: center;
   cursor: pointer;
 }
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
 
 /* --------------------MAIN PAGE--------------------- */
 
 /* ----------------------HEADER--------------------- */
 
 .header {
-  background-color: #ffffff;
 }
 .header-navigation {
-}
-.logo {
-  font-family: "Raleway";
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
-.header .logo-first-part {
-  color: #4d5ae5;
 }
 .header .logo-second-part {
   color: #2e2f42;
@@ -83,14 +85,22 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.address-list {
+.header-link:is(:hover, :active) {
+  color: #404bbf;
+}
+.address {
   font-style: normal;
+}
+.address-list {
 }
 .address-link {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
   color: currentColor;
+}
+.address-link:is(:hover, :active) {
+  color: #404bbf;
 }
 
 /* ----------------------HERO--------------------- */
@@ -101,7 +111,7 @@ body {
 .hero-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07px;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
@@ -110,11 +120,13 @@ body {
   color: #ffffff;
   background-color: #4d5ae5;
 }
+.hero-button:is(:hover, :active) {
+  background-color: #404bbf;
+}
 
 /* --------------------ADVANTAGES--------------------- */
 
 .section-advantages {
-  background-color: #ffffff;
 }
 .advantages-title {
 }
@@ -142,6 +154,9 @@ body {
 }
 .team-list {
 }
+.team-list-item {
+  background-color: #ffffff;
+}
 .team-subtitle {
   text-align: center;
 }
@@ -157,9 +172,7 @@ body {
 .footer-text {
   color: #f4f4fd;
 }
-.footer .logo-first-part {
-  color: #4d5ae5;
-}
+
 .footer .logo-second-part {
   color: #f4f4fd;
 }
@@ -167,7 +180,6 @@ body {
 /* --------------------PORTFOLIO PAGE--------------------- */
 
 .section-application {
-  background-color: #ffffff;
 }
 .application-button-list {
 }
@@ -175,7 +187,7 @@ body {
   color: #4d5ae5;
   background-color: #f4f4fd;
 }
-.application-active-button {
+.application-button:is(:hover, :active) {
   color: #ffffff;
   background-color: #404bbf;
 }
